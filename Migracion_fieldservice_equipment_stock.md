@@ -1,4 +1,4 @@
-#Documentación de cambios
+# Documentación de cambios
 
 **Módulo:** fieldservice_equipment_stock
 
@@ -15,7 +15,7 @@
 Este documento recoge los cambios realizados al migrar el módulo fieldservice_equipment_stock, desarrollado por la comunidad para Odoo 14, a la versión 16 de Odoo.
 
 
-##Lista de cambios:
+## Lista de cambios:
 
 **Archivos modificados:**
 
