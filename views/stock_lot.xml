@@ -2,7 +2,7 @@
 
 <!--
     Cambios:
-    - El archivo pasa de llamarse 'stock_production_lot' a stock_lot'.
+    - El archivo pasa de llamarse 'stock_production_lot' a 'stock_lot'.
 -->
 
 <odoo>
