@@ -17,13 +17,13 @@ Este documento recoge los cambios realizados al migrar el módulo fieldservice_e
 
 ## Lista de cambios:
 
-**Archivos modificados:**
+### Archivos modificados:
 
 * fieldservice_equipment_stock/models/stock_lot.py
 * fieldservice_equipment_stock/models/__init__.py
 * fieldservice_equipment_stock/views/stock_lot.xml
 
-**Cambios específicos:**
+### Cambios específicos:
 
 1. Modificación de la clase StockLot
 
