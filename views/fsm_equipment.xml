@@ -20,6 +20,11 @@ Cambios:
                     <field name="current_stock_location_id" />
                 </group>
             </group>
+            <header>
+                <button name="view_product" string="View Product" type="object" class="oe_highlight"/>
+                <button name="view_lot" string="View Lot" type="object" class="oe_highlight"/>
+                <button name="view_current_location" string="View Current Location" type="object" class="oe_highlight"/>
+            </header>
         </field>
     </record>
 
@@ -55,7 +60,7 @@ Cambios:
     <!-- Ver Lote -->
     <record id="action_view_lot" model="ir.actions.act_window">
         <field name="name">View Lot</field>
-        <field name="res_model">stock.production.lot</field>
+        <field name="res_model">stock.lot</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="stock.view_production_lot_form" />
         <field name="target">current</field>
@@ -64,7 +69,7 @@ Cambios:
     <record id="fsm_equipment_act_window_lot" model="ir.actions.act_window">
         <field name="name">View Lot</field>
         <field name="type">ir.actions.act_window</field>
-        <field name="res_model">stock.production.lot</field>
+        <field name="res_model">stock.lot</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="stock.view_production_lot_form" />
         <field name="target">current</field>
@@ -87,5 +92,5 @@ Cambios:
         <field name="view_id" ref="stock.view_location_form" />
         <field name="target">current</field>
     </record>
-    
+
 </odoo>
