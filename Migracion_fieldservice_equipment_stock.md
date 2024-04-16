@@ -21,6 +21,7 @@ Este documento recoge los cambios realizados al migrar el módulo fieldservice_e
 
 * fieldservice_equipment_stock/models/stock_lot.py
 * fieldservice_equipment_stock/models/__init__.py
+* fieldservice_equipment_stock/views/fsm_equipment.xml
 * fieldservice_equipment_stock/views/stock_lot.xml
 
 ### Cambios específicos:
@@ -33,6 +34,10 @@ Se ha renombrado la clase StockProductionLot, al igual que el archivo que la con
 
 Se ha renombrado '''stock_equipment_lot''', pasando a llamarse '''stock_lot'''.
 
-3. Archivo stock_lot.xml
+3. Archivo fsm_equipment.xml
+
+Se han añadido las acciones 'Ver Producto', 'Ver lote' y 'Ubicación actual'.
+
+4. Archivo stock_lot.xml
 
 Se ha renombrado el archivo '''stock_production_lot.xml''', pasando a llamarse '''stock_lot.xml'''.

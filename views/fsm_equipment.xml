@@ -20,11 +20,6 @@ Cambios:
                     <field name="current_stock_location_id" />
                 </group>
             </group>
-            <header>
-                <button name="view_product" string="View Product" type="object" class="oe_highlight"/>
-                <button name="view_lot" string="View Lot" type="object" class="oe_highlight"/>
-                <button name="view_current_location" string="View Current Location" type="object" class="oe_highlight"/>
-            </header>
         </field>
     </record>
 
