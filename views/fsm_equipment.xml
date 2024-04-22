@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 
-Cambios:
-- Eliminacion de {'default_product_id': product_id} del campo lot_id.
-- Eliminacion del dominio [('product_id', '=', product_id)] del campo lot_id.
--->
-
 <odoo>
 
     <record id="fsm_equipment_form_view_stock" model="ir.ui.view">
