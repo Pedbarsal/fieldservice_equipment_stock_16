@@ -8,7 +8,7 @@ class FSMEquipment(models.Model):
     _inherit = "fsm.equipment"
 
     product_id = fields.Many2one("product.product", string="Product", required=True)
-    lot_id = fields.Many2one("stock.production.lot", string="Serial #", required=True)
+    lot_id = fields.Many2one("stock.lot", string="Serial #", required=True)
     current_stock_location_id = fields.Many2one(
         "stock.location",
         string="Current Inventory Location",
@@ -28,8 +28,7 @@ class FSMEquipment(models.Model):
 
     @api.onchange("product_id")
     def _onchange_product(self):
-        for equipment in self:
-            equipment.current_stock_location_id = False
+        self.equipment.current_stock_location_id = False
 
     @api.model
     def create(self, vals):
